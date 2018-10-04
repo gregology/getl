@@ -73,4 +73,4 @@ Running Test
 Python compatibility
 --------------------
 
-Developed for Python 3. May work but not tested in Python 2.
+Requires Python 3.0 or greater

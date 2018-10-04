@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='getl',
-  version='0.1',
+  version='0.2',
   description='',
   long_description=open('README.rst').read(),
   url='https://github.com/gregology/getl',
@@ -16,6 +16,7 @@ setup(
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python'
   ],
+  python_requires='>=3',
   keywords='google, takeout, data',
   packages=find_packages(),
   package_data={
