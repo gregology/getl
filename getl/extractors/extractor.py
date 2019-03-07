@@ -27,7 +27,7 @@ class Extractor(object):
     unix_epoch_time = float(unix_epoch_time)
     if unix_epoch_time > 10000000000:
       unix_epoch_time = unix_epoch_time/1000
-    return datetime.fromtimestamp(unix_epoch_time).strftime('%Y-%m-%d %H:%M:%S')
+    return datetime.utcfromtimestamp(unix_epoch_time).strftime('%Y-%m-%d %H:%M:%S')
 
   def sql_safe(self, text):
     return text.replace("'","''")

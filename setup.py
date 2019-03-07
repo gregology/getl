@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
   name='getl',
-  version='0.2',
+  version='0.3',
   description='',
   long_description=open('README.rst').read(),
   url='https://github.com/gregology/getl',
